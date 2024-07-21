@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.field_Container{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap ;
+    gap: 100px;
+}
+
+
+.field{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+input{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: none;
+    padding: 12px 10px;
+    border-radius: 10px;
+}
